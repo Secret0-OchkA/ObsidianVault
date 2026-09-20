@@ -1,0 +1,9 @@
+{
+  "id": "auto-hub-links",
+  "name": "Auto Hub Links",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Automatically synchronizes links from notes to hubs by tags.",
+  "author": "Local",
+  "isDesktopOnly": false
+}

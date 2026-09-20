@@ -8,7 +8,23 @@
         "type": "tabs",
         "children": [
           {
-            "id": "64e616a19cdea47a",
+            "id": "29f2f8454d32a86c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 Knowledge/Knowledge Quality Dashboard.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Knowledge Quality Dashboard"
+            }
+          },
+          {
+            "id": "05a4ee2bbdfacfb0",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -19,7 +35,8 @@
               "title": "Граф"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,12 +94,11 @@
               "title": "Закладки"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 294.5
   },
   "right": {
     "id": "f1502c26b7235f0e",
@@ -172,8 +188,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "mermaid-toolbar-view"
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
         ],
@@ -186,7 +202,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
       "graph:Граф": false,
       "switcher:Меню быстрого перехода": false,
       "canvas:Создать новый холст": false,
@@ -194,49 +209,50 @@
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
       "bases:Создать новую базу": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "templater-obsidian:Templater": true,
+      "mermaid-tools:Open Mermaid Toolbar": true
     }
   },
-  "active": "dd3b95602df99eff",
+  "active": "05a4ee2bbdfacfb0",
   "lastOpenFiles": [
-    "00 System/__tmp_probe.md",
-    "03 Knowledge/Knowledge Quality Dashboard.md",
-    "00 Inbox/README.md",
-    "00 Inbox/Анализ миграции RabbitMQ Client на EasyNetQ.md",
-    "00 Inbox/Спека - Миграция RabbitMQ Client на EasyNetQ.md",
-    "Без названия.base",
-    "Без названия.canvas",
-    "Без названия 1.canvas",
-    "00 Inbox/001-rabbitmq-client-easynetq/decisions.md",
-    "06 Hubs/Hub - Knowledge.md",
-    "03 Knowledge/Knowledge Quality History.md",
-    "03 Knowledge/Agent Knowledge Routing.md",
-    "00 Inbox/001-rabbitmq-client-easynetq/design.md",
-    "00 Inbox/001-rabbitmq-client-easynetq/tests.md",
-    "00 Inbox/001-rabbitmq-client-easynetq/tasks.md",
-    "00 Inbox/001-rabbitmq-client-easynetq/spec.md",
-    "06 Hubs/Hub - Agent Knowledge.md",
-    "03 Knowledge/Цикл планирования.md",
-    "03 Knowledge/Следующее действие.md",
-    "03 Knowledge/Specification Workflow.md",
     "Индекс знаний.md",
-    "00 System/Obsidian Memory Policy.md",
-    "00 System/AI Instructions.md",
-    "00 Inbox/001-rabbitmq-client-easynetq",
-    "_Templates/Feature Decisions.md",
-    "_Templates/Feature Tests.md",
-    "_Templates/Feature Tasks.md",
-    "_Templates/Feature Design.md",
-    "03 Knowledge/Agent Knowledge Index.md",
-    "03 Knowledge/Agent Skill Authoring.md",
-    "ToDo",
+    "06 Hubs/Templater setup.md",
+    "06 Hubs/README.md",
+    "06 Hubs/Hub - Планирование.md",
+    "06 Hubs/Hub - Все хабы.md",
+    "06 Hubs/Hub - Все теги.md",
+    "06 Hubs/Hub - Knowledge.md",
+    "06 Hubs/Hub - Agent Knowledge.md",
+    "06 Hubs",
+    "05 Archive/README.md",
+    "05 Archive",
     "04 Sources/PDF.Service/Aspose.Total.NET.lic",
     "04 Sources/PDF.Service",
-    "01 Projects/PDF.Service",
+    "04 Sources/README.md",
+    "04 Sources",
+    "03 Knowledge/Dotnet Patterns/Validation.md",
+    "03 Knowledge/Dotnet Patterns/Typed Flow State Machine.md",
+    "03 Knowledge/Dotnet Patterns/Result Chaining.md",
+    "03 Knowledge/Dotnet Patterns/Mapping Between Models.md",
+    "03 Knowledge/Dotnet Patterns/External Calls and Resilience.md",
+    "03 Knowledge/Dotnet Patterns/CSharp Module Pattern.md",
+    "03 Knowledge/Dotnet Patterns/CSharp Discriminated Union.md",
+    "03 Knowledge/Dotnet Patterns/Caching and Idempotency.md",
+    "03 Knowledge/Dotnet Patterns/Background Processing.md",
     "03 Knowledge/Dotnet Patterns",
-    "00 System",
-    "_Scripts/syncHubLinks.js",
-    "_Scripts/sync-hub-links.js",
+    "03 Knowledge/Цикл планирования.md",
+    "03 Knowledge/Следующее действие.md",
+    "03 Knowledge/Контекст задачи.md",
+    "03 Knowledge/Еженедельный обзор.md",
+    "03 Knowledge/Task Analysis.md",
+    "03 Knowledge/Specification Workflow.md",
+    "03 Knowledge/README.md",
+    "03 Knowledge",
+    "02 Areas",
+    "01 Projects/PDF.Service",
+    "01 Projects",
+    "Без названия 1.canvas",
+    "Без названия.canvas",
     "Untitled.canvas"
   ]
 }

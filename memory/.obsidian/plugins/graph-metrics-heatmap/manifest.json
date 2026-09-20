@@ -1,0 +1,9 @@
+{
+	"id": "graph-metrics-heatmap",
+	"name": "Graph Metrics Heat Map",
+	"version": "0.1.0",
+	"minAppVersion": "1.4.0",
+	"description": "Colours graph view nodes by how often each note was accessed, using the note access metrics collected by Local REST API with MCP.",
+	"author": "",
+	"isDesktopOnly": false
+}

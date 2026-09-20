@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "coldColor": "#3b6fd4",
+  "hotColor": "#e8452c",
+  "days": null,
+  "source": "all",
+  "scale": "log",
+  "refreshSeconds": 30,
+  "dimUntouched": false,
+  "untouchedColor": "#4a4a4a"
+}
