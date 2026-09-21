@@ -35,8 +35,7 @@
               "title": "Граф"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,8 +212,10 @@
       "mermaid-tools:Open Mermaid Toolbar": true
     }
   },
-  "active": "05a4ee2bbdfacfb0",
+  "active": "29f2f8454d32a86c",
   "lastOpenFiles": [
+    "_Templates/Agent Feedback.md",
+    "03 Knowledge/Knowledge Quality Dashboard.md",
     "Индекс знаний.md",
     "06 Hubs/Templater setup.md",
     "06 Hubs/README.md",
@@ -245,8 +246,6 @@
     "03 Knowledge/Контекст задачи.md",
     "03 Knowledge/Еженедельный обзор.md",
     "03 Knowledge/Task Analysis.md",
-    "03 Knowledge/Specification Workflow.md",
-    "03 Knowledge/README.md",
     "03 Knowledge",
     "02 Areas",
     "01 Projects/PDF.Service",

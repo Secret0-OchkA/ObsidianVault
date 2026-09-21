@@ -5,7 +5,7 @@ tags:
   - knowledge
   - index
   - agents
-updated: 2026-09-15
+updated: 2026-09-21
 source: Obsidian agent knowledge index
 confidence: high
 review_status: reviewed
@@ -28,6 +28,9 @@ review_status: reviewed
 - [[03 Knowledge/Observability]] — Grafana, Loki, Prometheus и metrics catalog.
 
 - [[03 Knowledge/Specification Workflow]] — SDD-пакет: spec, design, decisions, tasks и tests.
+
+- [[_Templates/Agent Feedback]] - шаблон фиксации и формализации обратной связи от человека, sub-agent, review и тестов.
+- [[03 Knowledge/Development Process]] - протокол обработки обратной связи и межагентной передачи.
 
 ## Agent customization
 

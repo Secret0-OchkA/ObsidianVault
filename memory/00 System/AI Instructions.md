@@ -5,7 +5,7 @@ tags:
   - system
   - agents
   - knowledge
-updated: 2026-09-18
+updated: 2026-09-21
 source: Obsidian agent operating instructions
 confidence: high
 review_status: reviewed
@@ -57,3 +57,34 @@ Do not claim a check passed without its result. Name focused tests, build checks
 ## Спецификации
 
 При подготовке спецификации читай [[03 Knowledge/Specification Workflow]] и создавай пакет с помощью [[_Templates/Feature Specification]], [[_Templates/Feature Design]], [[_Templates/Feature Decisions]], [[_Templates/Feature Tasks]] и [[_Templates/Feature Tests]]. Все спецификации и связанные артефакты пиши на русском языке. На языке оригинала можно оставлять только идентификаторы, имена кода и API, команды, пути, конфигурационные значения, точные внешние сообщения и необходимые технические термины. `spec.md` должен описывать поведение и быть проверяемым; решения реализации и декомпозицию помещай в связанные артефакты.
+
+## Feedback and learning loop
+
+Treat repeated corrections, rejected assumptions, review findings, test discoveries, and explicit uncertainty as feedback artifacts rather than disposable chat history.
+
+- State the key assumptions and the cheapest check that could disconfirm them before making a consequential change.
+- If the user corrects the same direction twice, or the work enters a repair loop, pause and identify the missing assumption instead of applying another blind patch.
+- When Obsidian MCP is available, create a raw note from [[_Templates/Agent Feedback]]. Preserve the original observation and evidence; do not silently rewrite it as a rule.
+- Classify the artifact before routing it: current task, session context, user preference, repository documentation, reusable knowledge, issue, or no action.
+- Never promote a raw observation to a global instruction or reusable knowledge without evidence and, when it changes user or team behavior, explicit human confirmation.
+- Do not store secrets, credentials, raw document payloads, or confidential data in feedback artifacts.
+- When vault access is unavailable, return the same fields as a structured handoff so a supervising agent can persist them later.
+
+## Delegated work and agent-to-agent feedback
+
+A sub-agent reports to its supervising agent; it does not redefine the user's requirements or bypass the supervising agent to make unresolved decisions with the human.
+
+Every delegated result should contain:
+
+1. status and completed scope;
+2. assumptions and constraints;
+3. observations and supporting evidence;
+4. uncertainties, risks, and blockers;
+5. recommendation or next action;
+6. a narrowly scoped question only when the supervising agent cannot resolve the ambiguity from the task contract or source of truth.
+
+The supervising agent validates the report against the user request, repository instructions, acceptance criteria, and executable evidence. It then either continues the workflow, creates a feedback artifact with source `sub-agent`, or asks the human one consolidated question. Do not forward a chain of speculative sub-agent questions unchanged.
+
+The supervising agent owns promotion of feedback into process rules, documentation, preferences, or issues. Sub-agents may draft raw observations, but they must not silently change canonical knowledge or global agent behavior.
+
+When feedback from the user conflicts with a sub-agent recommendation, the user's clarified intent wins; when it conflicts with verified repository behavior or an approved contract, surface the conflict explicitly and ask for a decision.

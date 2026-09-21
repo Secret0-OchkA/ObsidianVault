@@ -8,7 +8,7 @@ tags:
   - dotnet
   - jira
 created: 2026-09-15
-updated: 2026-09-15
+updated: 2026-09-21
 template_version: 2
 source: user-level Copilot knowledge migration
 confidence: high
@@ -42,3 +42,10 @@ The Obsidian notes are the canonical reusable knowledge. The original local copi
 ### Specification and planning
 
 - [[03 Knowledge/Specification Workflow]] - пакетный Spec-Driven Development workflow и границы `spec.md`, `design.md`, `decisions.md`, `tasks.md` и `tests.md`.
+
+### Agent feedback and learning
+
+- [[_Templates/Agent Feedback]] - raw feedback artifact for repeated corrections, missed context, review findings, test discoveries, and agent-to-agent handoffs.
+- [[03 Knowledge/Development Process]] - feedback thresholds, routing, and the `sub-agent -> supervising agent -> human` protocol.
+
+Create raw feedback first, then promote it only after evidence and appropriate human confirmation. Keep reusable rules in `03 Knowledge`; keep project-specific decisions in the repository documentation.

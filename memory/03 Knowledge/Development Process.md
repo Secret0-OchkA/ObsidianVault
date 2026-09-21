@@ -2,7 +2,7 @@
 type: knowledge
 status: developed
 created: 2026-09-15
-updated: 2026-09-15
+updated: 2026-09-21
 tags:
   - knowledge
   - topic/agents
@@ -64,3 +64,25 @@ When the user asks for a commit message and description but explicitly says not 
 <!-- Auto-managed by Auto Hub Links -->
 - [[06 Hubs/Hub - Планирование]]
 - [[06 Hubs/Hub - Knowledge]]
+
+## Feedback loop
+
+Feedback is part of the development process, not only a final chat message.
+
+1. Before a consequential edit, the active agent states the working assumption and one focused check that could disconfirm it.
+2. After the first correction, the agent updates the local task context. After the second correction in the same direction, it pauses and names the missing assumption.
+3. When Obsidian is available, record the observation with [[_Templates/Agent Feedback]] using the original wording and evidence. Mark it `raw` or `proposed` until reviewed.
+4. Classify the result as task context, session context, user preference, repository documentation, reusable knowledge, issue, or no action.
+5. Only the supervising agent promotes a sub-agent observation into canonical process knowledge, documentation, or a global preference.
+
+### Delegated feedback contract
+
+The chain `sub-agent -> supervising agent -> human` follows this order:
+
+- The sub-agent returns status, scope, assumptions, evidence, uncertainties, risks, and a recommendation.
+- The supervising agent checks the report against the task contract and executable evidence. It may reject unsupported conclusions, continue the work, or combine several observations into one question.
+- The human is asked only when the supervising agent cannot resolve a material ambiguity from the available sources.
+- Review and test agents report findings to the supervising agent in the same format. Their findings are evidence, not automatic requirement changes.
+- A sub-agent must not silently edit global instructions or promote its own observation to reusable knowledge.
+
+This keeps delegation efficient while preserving one accountable decision point and a traceable path from correction to documented knowledge.
