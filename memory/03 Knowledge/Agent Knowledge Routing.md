@@ -49,3 +49,7 @@ The Obsidian notes are the canonical reusable knowledge. The original local copi
 - [[03 Knowledge/Development Process]] - feedback thresholds, routing, and the `sub-agent -> supervising agent -> human` protocol.
 
 Create raw feedback first, then promote it only after evidence and appropriate human confirmation. Keep reusable rules in `03 Knowledge`; keep project-specific decisions in the repository documentation.
+
+### Bitbucket pull request
+
+- [[03 Knowledge/Bitbucket Pull Request Workflow]] - подготовка, создание и оформление Pull Request в Bitbucket Cloud. Используй при явном запросе на PR; не угадывай source/destination, reviewers или assignee.

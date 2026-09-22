@@ -32,6 +32,8 @@ review_status: reviewed
 - [[_Templates/Agent Feedback]] - шаблон фиксации и формализации обратной связи от человека, sub-agent, review и тестов.
 - [[03 Knowledge/Development Process]] - протокол обработки обратной связи и межагентной передачи.
 
+- [[03 Knowledge/Bitbucket Pull Request Workflow]] — подготовка и оформление Pull Request в Bitbucket Cloud.
+
 ## Agent customization
 
 - [[03 Knowledge/Agent Skill Authoring]] — создание настоящих runtime skills.

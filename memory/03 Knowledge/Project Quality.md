@@ -42,3 +42,11 @@ Run sequentially: coverage, mutation, warnings. Print every report path and pres
 <!-- Auto-managed by Auto Hub Links -->
 - [[06 Hubs/Hub - Agent Knowledge]]
 - [[06 Hubs/Hub - Knowledge]]
+
+## Test run logs
+
+For every test run, write the complete output to a timestamped log file. The log must make it possible to see which tests passed, when they completed, which tests failed, and which warnings were emitted. Preserve the process exit code in the same log and report the log path with the result.
+
+Use the repository's native test command and redirect both standard output and standard error to the log. Add an explicit exit-code marker after the command completes, for example `FULL_TEST_EXIT_CODE=<code>`. Do not claim that tests passed from compilation or discovery alone; verify the final test summary and exit code in the log.
+
+For long-running full suites, start the command asynchronously after telling the user that the run has started and where the log will be written. Inspect the log only after the process has completed; if no final summary or exit-code marker exists, report the run as incomplete.
